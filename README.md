@@ -6,7 +6,7 @@ This was initially built using Javascript, as [BogBot](https://github.com/kyebro
 To call eternøl bot, users can simply use `/` and type in either a unit name or keyword to receive their profiles or definitions. 
 
 ###### Functionality to add in future revs:
-- Create subgroups to organize commands better
-- Move csv files from being stored locally to the cloud
+- [ ] Create subgroups to organize commands better
+- [ ] Move csv files from being stored locally to the cloud
 
 
