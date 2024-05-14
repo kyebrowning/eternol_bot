@@ -1,0 +1,53 @@
+name,keyword_type,unit_cost,army_cost,description,can_be_taken_twice
+Accurate,keyword,25,175,"Units with this keyword may target enemy units that are in Close Combat, with another unit, with a Range Combat attack.",FALSE
+Advanced Deployment,keyword,15,105,"After all units have deployed, units with this keyword may re-deploy up to 10” from their initial deployment.",FALSE
+Armor Piercing,keyword,15,105,"While making an attack against an opposing unit, reduce the units Defense value by 1.",TRUE
+Armored,keyword,10,70,"Improve this units Defense by 1. NOTE: If taken on a vehicle unit, this costs 20 and decreases your Move by 1”.",TRUE
+Artillery,keyword,0,0,"Reduce this units Movement speed by half, rounded down, and increase its range by 5”.",FALSE
+Assault,keyword,15,105,"When a unit with this keyword makes a Close Combat attack and causes at least 1 stress, the defending unit takes 2 additional stress.",FALSE
+Bad Shot,keyword,-15,-105,Reduce this units Combat stat by 1 when making ranged attacks. This trait cannot be taken on a unit with the Brawler or Flame Weapons keyword.,FALSE
+Body Guard,keyword,25,175,"If this unit is within 3” and LOS of a friendly unit that is being targeted by a Range Combat attack, this unit becomes the new target, even if its outside of range and LOS of the enemy attacking unit.",FALSE
+Bombardment,keyword,10,70,"This unit may ignore level 1 terrain while drawing LOS to target an enemy unit, but reduces its Ranged Combat attack by 1 for attacks made this way.",FALSE
+Brawler,keyword,-10,-70,This unit loses its ability to make Ranged Combat attacks and gains a +1 bonus to its Close Combat attack stat. This trait cannot be taken on a unit with the Bad Shot keyword.,FALSE
+Camouflage,keyword,15,105,This unit cannot be targeted by an enemy unit more than 12” away.,FALSE
+Chain Lightning,keyword,30,210,"After this unit resolves an attack on an enemy unit, it then uses the dice that did not hit to make an attack on the next closest unit, friend or foe, within 3”, and will continue doing so, measuring range from the most recent targeted unit, until either there are no more dice available or no more units in range. You may not target a unit more than once during this attack.",FALSE
+Courageous,keyword,5,35,Increase this units Morale by 1.,FALSE
+Cowardly,keyword,-5,-35,Reduce this units Morale by 1.,FALSE
+Crack Shot,keyword,15,105,Increase the units Combat stat by 1 when making ranged attacks.,TRUE
+Exploding,keyword,15,105,"When this unit routes, all units (friendly and enemy)within 5” must immediately make a defense roll against 10 hits.",FALSE
+Fast,keyword,15,105,Increase this units Move stat by 2”.,FALSE
+Field Commander,keyword,15,0,"If your leader is removed from the play field, this unit can become your new leader but only gaining +1 to your Morale value, instead of +2. Note: May only be taken once per army.",FALSE
+Fire Support,keyword,25,175,"Units with this keyword, without an activation token, within range and LOS of the declared target may choose to add their 1st attack dice pool, and any keywords, to the attacking unit. After the attack, place an activation on the unit that used fire support.",FALSE
+Flame Weapons,keyword,10,70,"Reduce this units weapon range to 5”. Attacks with this unit, hit automatically. Targeted enemy unit makes its Defense save as normal.",FALSE
+Flying,keyword,15,105,This unit may move through height 1 terrain and ignore movement penalties while doing so. This unit also ignores height 1 terrain while drawing LOS to target an enemy unit.,FALSE
+Force Field,keyword,50,350,Friendly units within 5” of this unit have a defense of 4+.,FALSE
+Heavy Fire,keyword,15,105,"When a unit with this keyword makes a Ranged Combat attack and causes at least 1 stress, the defending unit takes 2 additional stress.",FALSE
+Hive Mind,keyword,20,140,"After the Push Phase, but before the Morale Phase, units with this keyword may move up to half of their stress, rounded down, to another unit with this keyword. A unit may only receive or remove stress once per round in this way.",FALSE
+Immobile,keyword,-20,-140,Reduce this units Movement speed to 0”.,FALSE
+Inspiring,keyword,10,70,Friendly units within 5” of the unit with this keyword gain +1 to their Morale while making morale checks during the Morale Phase.,FALSE
+Lifesteal,keyword,10,70,"When this unit makes a Close Combat attack, after stress has been resolved, this unit may roll d10 equal to the amount of stress given to the enemy unit. For each 8+, remove 1 stress from this unit.",FALSE
+Long Range Weapons,keyword,10,70,Add 5” inches to this units Range. Note: This keyword costs 20 points if coupled with the flame weapons keyword.,TRUE
+Mechanic,keyword,20,140,"This unit may remove 2 stress from a friendly vehicle unit within 1"". You may only perform this action once per round.",FALSE
+Medic,keyword,20,140,"This unit may remove 2 stress from a friendly infantry unit within 1"". You may only perform this action once per round.",FALSE
+Pathfinder,keyword,10,70,This unit ignores movement penalties while moving through rough terrain.,FALSE
+Regeneration,keyword,15,105,"At the end of the Morale Phase, this unit may roll a number of d10 equal to its current amount of stress up to its morale value. For each 8+, remove 1 stress from this unit.",FALSE
+Slow,keyword,-15,-105,Decrease this units Move stat by 2”.,FALSE
+Stoic,keyword,25,175,Friendly units within 10” of the unit with this keyword gain +1 to their Morale while making morale checks during the Morale Phase.,FALSE
+Swarm,keyword,10,70,Units with the same keyword and within 3” of each other may activate as one unit.,FALSE
+Terror,keyword,20,140,"After this unit has made a Close Combat attack and has dealt at least 1 stress, the enemy unit must immediately perform a Morale check.",FALSE
+Transport,keyword,10,70,"Before the game, you may denote one infantry unit to be transported in this vehicle. The transported unit gains the Disembark keyword.\nDisembark: This unit uses its first action to be placed in base contact with the vehicle transporting this unit. This unit may then take a second action as normal.",TRUE
+Warlord,keyword,20,140,Increase your leaders Morale area of effect to 10”.,FALSE
+Warp,keyword,25,175,"During the deployment phase, this unit does not deploy with your army. Instead, as an action, they may be placed anywhere within 10” and LOS of any friendly unit any time after round 1. May not warp into Close Combat.",FALSE
+Weapon Overload,keyword,15,105,"Each 10 in this units attack pool counts as an additional successful hit. Additionally, this unit receives one stress for each 1 in this attack pool. Note: A unit with this weapon trait may choose if they want to use this ability in each attack, but must declare so prior to rolling dice for the attack.",FALSE
+Zealous,keyword,10,70,"Once this units stress is equal to or greater than their Morale value, they increase their Combat value by 1.",FALSE
+Berserk,spell_or_ability,10,70,A friendly unit within LOS gains +2 to their next Close Combat attack.,FALSE
+Coerce,spell_or_ability,15,105,You may perform a Move action with an enemy unit within LOS.,FALSE
+Entice,spell_or_ability,15,70,A friendly unit within LOS may immediately perform one action.,FALSE
+Haste,spell_or_ability,10,70,"Friendly unit within LOS gains 2” to their Move, until the end of the round.",FALSE
+Sluggish,spell_or_ability,10,70,"An enemy unit within LOS loses 2” to their Move, until the end of the round.",FALSE
+Smite,spell_or_ability,15,105,Target enemy unit in LOS makes 10 defense rolls.,FALSE
+Soothe,spell_or_ability,15,105,Remove 3 stress from a friendly unit within LOS.,FALSE
+Summon,spell_or_ability,15,105,"During the deployment phase, elect a summoned unit. This unit does not deploy with your army. Instead, they may be placed anywhere within LOS of the summoning unit.",FALSE
+Steady,spell_or_ability,20,105,A friendly units within LOS gain +2 to their next Ranged Combat attack.,FALSE
+Turn the Tides,spell_or_ability,40,280,Target one friendly unit within LOS that has an activation token and remove it - OR - target one enemy unit within LOS without an activation token and place one on the targeted unit.,FALSE
+War Weary,spell_or_ability,20,140,Force an enemy unit within LOS to immediately make a morale check.,FALSE

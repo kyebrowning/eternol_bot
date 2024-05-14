@@ -1,0 +1,7 @@
+Name,Points,Movement,Combat,Defense,Morale,Range
+Rabble,30,4,8,8,3,10
+Light Infantry,50,4,7,7,4,10
+Heavy infantry,70,4,6,6,5,10
+Light Armored Vehicle,90,7,6,5,6,15
+Heavy Armored Vehicle,110,6,5,4,6,15
+War Behemoth,150,4,4,4,8,20
