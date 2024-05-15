@@ -8,6 +8,7 @@ import discord
 load_dotenv()
 
 DISCORD_TOKEN = os.getenv("DISCORD_TOKEN")
+GUILD_ID = os.getenv("GUILD_ID")
 
 BASE_DIR = pathlib.Path(__file__).parent
 
